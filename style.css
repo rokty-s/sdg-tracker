@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #13c758, #1a84db);
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  border-bottom: 1px solid #333;
+}
+h3{
+  text-align: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background 0.3s;
+  font-size: 18px;
+}
+.nav a:hover {
+  background-color: #286868;
+}
+.nas, .cont{
+  padding-top: 10px;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn, .btn-outline {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-outline {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.services {
+  padding: 60px 20px;
+  background-color: white;
+}
+
+.service-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  opacity: 0.8;
+  padding: 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.card h4 {
+  margin-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #333;
+  color: #ffffff;
+}
+.fotka{
+  width: 64px;
+  height: 64px;
+  filter: brightness(0) invert(1); 
+}
+
+
+@media (min-width: 768px) {
+  .service-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+#oo, #o1, #o2, #o3, #o4, #o5, #o6, #o7, #o8, #o9, #o10, #o11, #o12, #o13, #o14, #o15, #o16{
+  background: #969595;
+  transition: background 0.5s;
+}
+#oo:hover{
+background: #c9182d;
+}
+#o1:hover{
+  background: #dda63a;
+}
+#o2:hover{
+  background: #3f842e;
+}
+#o3:hover{
+  background: #a71526;
+}
+#o4:hover{
+  background: #e91a00;
+}
+#o5:hover{
+  background: #26bde2;
+}
+#o6:hover{
+  background: #fcc30b;
+}
+#o7:hover{
+  background: #8a1538;
+}
+#o8:hover{
+  background: #fd6925;
+}
+#o9:hover{
+  background: #bc1058;
+}
+#o10:hover{
+  background: #fd9d24;
+}
+#o11:hover{
+  background: #bf8b2e;
+}
+#o12:hover{
+  background: #366b3a;
+}
+#o13:hover{
+  background: #0879ae;
+}
+#o14:hover{
+  background: #56c02b;
+}
+#o15:hover{
+  background: #005885;
+}
+#o16:hover{
+  background: #153d5a;
+}
